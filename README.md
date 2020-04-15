@@ -16,23 +16,23 @@ Only high level concepts are provided here for a comprehensive review click [her
 
 ### What is middleware?
 
-Middlleware has different connotations in the software arena. In this context, it acts as a interceptor between the consumer (the application) and the original recipient (API endpoint). The ![middleware](https://redux.js.org/advanced/middleware) in this case defers the dispatch to the redux store until the API request is fulfilled.
+Middlleware has different connotations in the software arena. In this context, it acts as a interceptor between the consumer (the application) and the original recipient (API endpoint). The [middleware](https://redux.js.org/advanced/middleware) in this case defers the dispatch to the redux store until the API request is fulfilled.
 
 ### The need for middleware.
 
-Since redux is [synchronous](https://redux.js.org/advanced/async-flow) and consuming REST API endpoints with asynchronous requests is the industry trend. The middleware serves to bridge the gap between redux and the deferred API response. \_ Both [redux-thunk](https://github.com/reduxjs/redux-thunk) and [redux-saga](https://github.com/redux-saga/redux-saga) are [middleware](https://redux.js.org/advanced/middleware).
+Since redux is [synchronous](https://redux.js.org/advanced/async-flow) and consuming REST API endpoints with asynchronous requests is the industry trend. The middleware serves to bridge the gap between redux and the deferred API response. Both [redux-thunk](https://github.com/reduxjs/redux-thunk) and [redux-saga](https://github.com/redux-saga/redux-saga) are [middleware](https://redux.js.org/advanced/middleware).
 
 ### What is redux saga?
 
-![saga introduction](./readme-images/Saga-intro.jpg?raw=true "Saga Introduction")
+![saga introduction](./read-me-files/Saga-intro.jpg?raw=true "Saga Introduction")
 
 ### How does saga work?
 
-![How does saga work](./readme-images/how-does-saga-work.png?raw=true "How does saga work")
+![How does saga work](./read-me-files/how-does-saga-work.png?raw=true "How does saga work")
 
 ### What are saga effects?
 
-![What is a saga effect](./readme-images/what-is-saga-effect.png?raw=true "What is a saga effect")
+![What is a saga effect](./read-me-files/what-is-saga-effect.png?raw=true "What is a saga effect")
 
 # Usage Details
 
@@ -57,4 +57,4 @@ npm start
 ```
 
 When all goes well you should see something similar to the below screenhot.
-![npm run screenshot](./readme-images/npm start.png?raw=true "What is a saga effect")
+![npm run screenshot](./read-me-files/npm start.png?raw=true "What is a saga effect")
