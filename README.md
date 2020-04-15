@@ -57,4 +57,4 @@ npm start
 ```
 
 When all goes well you should see something similar to the below screenhot.
-![npm run screenshot](./read-me-files/npm start.png?raw=true "What is a saga effect")
+![npm run screenshot](./read-me-files/npm-start.png?raw=true "What is a saga effect")
