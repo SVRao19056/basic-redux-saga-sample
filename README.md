@@ -38,23 +38,9 @@ Since redux is [synchronous](https://redux.js.org/advanced/async-flow) and consu
 
 The intent is to provide flavor of the scafolding for a saga-redux integration. Some aspects will probably need to be adjusted to meet your organization standards and conventions.
 
-## Step 1
-
-```js
-git clone
-```
-
-## Step 2
-
-```js
-npm install
-```
-
-## Step 3
-
-```js
-npm start
-```
-
+## Steps
+1. Clone the repository to a local folder
+1. Run npm install 
+1. Run npm run on your terminal.
 When all goes well you should see something similar to the below screenhot.
 ![npm run screenshot](./read-me-files/npm-start.png?raw=true "What is a saga effect")
