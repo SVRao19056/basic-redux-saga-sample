@@ -34,7 +34,7 @@ Since redux is [synchronous](https://redux.js.org/advanced/async-flow) and consu
 
 ![What is a saga effect](./read-me-files/what-is-saga-effect.png?raw=true "What is a saga effect")
 
-# Usage Details
+# Usage Details [skip to next section](https://github.com/SVRao19056/basic-redux-saga-sample/blob/master/README.md#code-walk-through)
 
 The intent is to provide flavor of the scafolding for a saga-redux integration. Some aspects will probably need to be adjusted to meet your organization standards and conventions.
 
@@ -44,3 +44,20 @@ The intent is to provide flavor of the scafolding for a saga-redux integration. 
 1. Run npm run on your terminal.
 When all goes well you should see something similar to the below screenhot.
 ![npm run screenshot](./read-me-files/npm-start.png?raw=true "What is a saga effect")
+
+# Code Walk Through 
+
+## Orchestration steps
+###  Step 1  [source code: App.js](./src/App/App.js) 
+![Step1](./read-me-files/codeSeg-App.png?raw=true "Step 1 ") |
+###  Step 2  [source code: reducer/index.js](./src/reducer/index.js) 
+|![Step2](./read-me-files/step2-reducers.png?raw=true "Step 2 ") |
+###  Step 3  [source code: sagas/userSaga.js](./src/sagas/userSaga.js) 
+|![Step3](./read-me-files/step3-saga-effects.png?raw=true "Step 3 ") |
+###  Step 4  [source code: store/config .js](./src/sagas/userSaga.js) 
+|![Step4](./read-me-files/step4-saga-integration.png?raw=true "Step 4") |
+
+
+
+
+
