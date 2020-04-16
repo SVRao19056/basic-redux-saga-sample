@@ -1,7 +1,18 @@
 {
-  "name": "survey-app",
+  "name": "@svr-tutorial-samples/basic-redux-saga-sample",
   "version": "1.0.0",
-  "private": true,
+  "author": {
+    "name": "Suresh Rao"
+  },
+  "main": "index.js",
+  "description": "This a basic sample to showcase integration of redux-saga with redux , react , redux-react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SVRao19056/basic-redux-saga-sample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SVRao19056/basic-redux-saga-sample/issues"
+  },
   "dependencies": {
     "@material-ui/core": "^4.6.1",
     "@material-ui/icons": "^4.9.1",

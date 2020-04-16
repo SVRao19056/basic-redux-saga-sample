@@ -1,7 +1,9 @@
 # basic-redux-saga-sample
 
-This package show cases the integration of redux-saga with redux and react. This is a code sample companion for the article authored by me. click [here]() for the companion article.
-# Intent 
+This package show cases the integration of redux-saga with redux and react. This is a code sample companion for the article authored by me. click [here](https://www.linkedin.com/pulse/redux-middleware-soups-nuts-suresh-rao) for the companion article.
+
+# Intent
+
 This is to provide a scafolding for redux-saga integration. This represents the final version after a number of iterations. I want to share my learnings which may benefit those who are just embarking on this journey.
 
 # Acknowledgements
@@ -10,11 +12,11 @@ Shout out to [Jasmine Bamou](https://medium.com/@jasmine.bamou?source=post_page-
 
 # Introduction
 
-The integration of redux saga is an ochestration between react-saga , redux , react , react-redux libraries . If you are not familar with these libraries , I would strongle encourage you to review the companion article [here]().
+The integration of redux saga is an ochestration between react-saga , redux , react , react-redux libraries . If you are not familar with these libraries , I would strongle encourage you to review the companion article [here](https://www.linkedin.com/pulse/redux-middleware-soups-nuts-suresh-rao).
 
 ## Fundamentals [skip to next section](https://github.com/SVRao19056/basic-redux-saga-sample/blob/master/README.md#usage-details)
 
-Only high level concepts are provided here for a comprehensive review click [here]().
+Only high level concepts are provided here for a comprehensive review click [here](https://www.linkedin.com/pulse/redux-middleware-soups-nuts-suresh-rao).
 
 ### What is middleware?
 
@@ -41,25 +43,31 @@ Since redux is [synchronous](https://redux.js.org/advanced/async-flow) and consu
 The intent is to provide flavor of the scafolding for a saga-redux integration. Some aspects will probably need to be adjusted to meet your organization standards and conventions.
 
 ## Steps
-1. Clone the repository to a local folder
-1. Run npm install 
-1. Run npm run on your terminal.
-When all goes well you should see something similar to the below screenhot.
-![npm run screenshot](./read-me-files/npm-start.png?raw=true "What is a saga effect")
 
-# Code Walk Through 
+1. Clone the repository to a local folder
+   Open a terminal with VS Code or Bash and execute the following
+1. npm install
+1. npn run-script build
+1. npm run-script start
+   When all goes well you should see something similar to the below screenhot.
+   ![npm run screenshot](./read-me-files/npm-start.png?raw=true "What is a saga effect")
+
+# Code Walk Through
 
 ## Orchestration steps
-###  Step 1  [source code: App.js](./src/App/App.js) 
+
+### Step 1 [source code: App.js](./src/App/App.js)
+
 ![Step1](./read-me-files/codeSeg-App.png?raw=true "Step 1 ") |
-###  Step 2  [source code: reducer/index.js](./src/reducer/index.js) 
+
+### Step 2 [source code: reducer/index.js](./src/reducer/index.js)
+
 |![Step2](./read-me-files/step2-reducers.png?raw=true "Step 2 ") |
-###  Step 3  [source code: sagas/userSaga.js](./src/sagas/userSaga.js) 
+
+### Step 3 [source code: sagas/userSaga.js](./src/sagas/userSaga.js)
+
 |![Step3](./read-me-files/step3-saga-effects.png?raw=true "Step 3 ") |
-###  Step 4  [source code: store/config .js](./src/sagas/userSaga.js) 
+
+### Step 4 [source code: store/config .js](./src/sagas/userSaga.js)
+
 |![Step4](./read-me-files/step4-saga-integration.png?raw=true "Step 4") |
-
-
-
-
-
