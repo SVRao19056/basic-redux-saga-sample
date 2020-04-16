@@ -10,7 +10,7 @@ Shout out to [Jasmine Bamou](https://medium.com/@jasmine.bamou?source=post_page-
 
 The integration of redux saga is an ochestration between react-saga , redux , react , react-redux libraries . If you are not familar with these libraries , I would strongle encourage you to review the companion article [here]().
 
-## Fundamentals
+## Fundamentals [skip to next section](https://github.com/SVRao19056/basic-redux-saga-sample/blob/master/README.md#usage-details)
 
 Only high level concepts are provided here for a comprehensive review click [here]().
 
