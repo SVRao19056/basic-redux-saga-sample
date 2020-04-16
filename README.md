@@ -1,6 +1,8 @@
 # basic-redux-saga-sample
 
 This package show cases the integration of redux-saga with redux and react. This is a code sample companion for the article authored by me. click [here]() for the companion article.
+# Intent 
+This is to provide a scafolding for redux-saga integration. This represents the final version after a number of iterations. I want to share my learnings which may benefit those who are just embarking on this journey.
 
 # Acknowledgements
 
