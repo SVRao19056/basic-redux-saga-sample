@@ -28,7 +28,7 @@ Since redux is [synchronous](https://redux.js.org/advanced/async-flow) and consu
 
 ### What is redux saga?
 
-![saga introduction](./read-me-files/Saga-intro.JPG?raw=true "Saga Introduction")
+![saga introduction](./read-me-files/Saga-intro.jpg?raw=true "Saga Introduction")
 
 ### How does saga work?
 
