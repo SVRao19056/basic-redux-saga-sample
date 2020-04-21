@@ -38,7 +38,7 @@ const User = ({ user, dataLoaded }) => {
           <Typography>
             {`${user["name"]["first"]} ${user["name"]["last"]}`}
           </Typography>
-          <MailOutlineIcon fontSize={"medium"}></MailOutlineIcon>{" "}
+          <MailOutlineIcon fontSize={"small"}></MailOutlineIcon>{" "}
           <span>{user.email}</span>
         </CardContent>
         <CardActions></CardActions>

@@ -27,8 +27,8 @@ class UserList extends Component {
     searchString: "",
   };
 
-  componentWillRecieveProps(props) {
-    console.log(...{ name: "componentWillRecieveProps" });
+  componentDidUpdate(props) {
+    console.log([props, ...["componentDidUpdate"]]);
   }
 
   render() {
@@ -42,7 +42,7 @@ class UserList extends Component {
           <div className={classes.root}>
             <Grid container spacing={2}>
               {userArr.map((curUser) => (
-                <Grid item elevation={0}>
+                <Grid item elevation={0} key={curUser.login.md5}>
                   <User user={curUser} dataLoaded={dataReady} />
                 </Grid>
               ))}
