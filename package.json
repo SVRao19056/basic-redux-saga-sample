@@ -90,7 +90,7 @@
     "jest-watch-master": "^1.0.0",
     "jest-watch-toggle-config": "^1.0.2",
     "jest-watch-typeahead": "^0.5.0",
-    "karma": "^5.0.2",
+    "karma": "^6.3.16",
     "mocha": "^7.1.1",
     "naughty-strings": "^1.0.0",
     "neutrino": "^9.1.0",
